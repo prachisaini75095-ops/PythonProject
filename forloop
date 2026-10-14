@@ -1,0 +1,32 @@
+# start, stop, step
+# for i in range(10,21,1):
+#     print(i)
+
+# table of 5
+# for i in range(5,51,5):
+#     print(i)
+
+# INPUT
+# n = int(input("Enter a number :"))
+# for i in range(n,(n*10)+1, n):
+#     print(i)
+
+# strings
+# a = "students"
+# # for i in a:
+# #     print(i)
+# for i in range(len(a)):
+#     print(f"{i} : {a[i]}")
+
+# BREAK AND CONTINUE
+# for i in range(10,21,1):
+#     if(i == 15):
+#         break   
+#     print(i)
+
+for i in range(10,21,1):
+    if(i == 15 or i == 16 or i == 17):
+        continue    
+    print(i)
+
+
